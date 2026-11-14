@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- Ghost Valley ---
+drafts/
+answers/
+secrets.json
+logs/
+player-data/
+*.sql.gz
+.env.backup
+.env
+.env.*
+.env.example
+!.env.example
+
+# --- prevent API key leak ---
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+*.asc
+
+# --- markdown ---
+*.md
+
+
